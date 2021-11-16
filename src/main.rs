@@ -9,8 +9,8 @@
 #![allow(dead_code)]
 
 #[no_mangle]
-pub extern "C" fn _start(a0: usize, a1: usize) -> usize {
-    a0 + a1
+pub extern "C" fn _start() -> usize {
+    100
 }
 
 // https://github.com/rust-lang/rust/blob/3aedcf06b73fc36feeebca3d579e1d2a6c40acc5/compiler/rustc_codegen_cranelift/example/mini_core.rs
