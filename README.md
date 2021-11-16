@@ -27,3 +27,7 @@ PS > cargo +stage1 build --target csky-unknown-none-elf
 ```
 
 这样就能完成编译过程了。
+
+## 版权
+
+目前还没法儿编译core包，所以项目模拟了core包需要的所有语言项，参考了[mini_core example](https://github.com/rust-lang/rust/blob/3aedcf06b73fc36feeebca3d579e1d2a6c40acc5/compiler/rustc_codegen_cranelift/example/mini_core.rs)的代码。
